@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.lesson.LessonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardUpper"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           app:cardBackgroundColor="@color/white"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:outlineProvider="none">
+
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/white">
+
+               <View
+                   android:id="@+id/view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="#A1A1A1"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginBottom="2dp"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/img2" />
+
+               <ImageView
+                   android:id="@+id/img2"
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:contentDescription="@string/desc3"
+                   android:src="@drawable/logo_academy"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintTop_toTopOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"/>
+
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+       </androidx.cardview.widget.CardView> <!-- Titolo -->
+
+       <Button
+           android:id="@+id/back_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Back"
+           android:layout_marginStart="10dp"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/cardUpper" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="10dp"
+           android:max="100"
+           android:progress="0"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintBottom_toTopOf="@+id/lessonRecyclerView"
+           app:layout_constraintTop_toBottomOf="@+id/back_button" />
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/lessonRecyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginTop="20dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

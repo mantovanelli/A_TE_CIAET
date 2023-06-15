@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/fragment_Home">
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="it.unimib.ciaet.ui.app.Fragment_Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/fragment_Academy"
+        android:name="it.unimib.ciaet.ui.app.Fragment_Academy"
+        android:label="fragment_academy"
+        tools:layout="@layout/fragment_academy" />
+    <fragment
+        android:id="@+id/fragment_Graphs"
+        android:name="it.unimib.ciaet.ui.app.Fragment_Graphs"
+        android:label="fragment_graphs"
+        tools:layout="@layout/fragment_graphs" />
+    <fragment
+        android:id="@+id/fragment_Trading"
+        android:name="it.unimib.ciaet.ui.app.Fragment_Trading"
+        android:label="fragment_trading"
+        tools:layout="@layout/fragment_trading" />
+    <fragment
+        android:id="@+id/fragment_Settings"
+        android:name="it.unimib.ciaet.ui.app.Fragment_Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+</navigation>

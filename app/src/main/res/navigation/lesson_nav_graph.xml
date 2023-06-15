@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lesson_nav_graph"
+    app:startDestination="@id/fragment_lesson">
+    <fragment
+        android:id="@+id/fragment_lesson"
+        android:name="it.unimib.ciaet.ui.lesson.LessonFragment"
+        android:label="Lesson"
+        tools:layout="@layout/fragment_lesson" >
+        <action
+            android:id="@+id/action_fragment_lesson_to_fragment_lesson_detail"
+            app:destination="@id/fragment_lesson_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_lesson_detail"
+        android:name="it.unimib.ciaet.ui.lesson.LessonDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_lesson_detail" >
+        <argument
+            android:name="lessonNo"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragment_lesson_detail_to_fragment_lesson"
+            app:destination="@id/fragment_lesson" />
+    </fragment>
+
+</navigation>

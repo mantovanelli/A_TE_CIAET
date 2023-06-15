@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_Home"
+        android:enabled="true"
+        android:title="@string/page1"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/fragment_Academy"
+        android:enabled="true"
+        android:title="@string/page2"
+        android:icon="@drawable/academy"/>
+    <item
+        android:id="@+id/fragment_Graphs"
+        android:enabled="true"
+        android:title="@string/page3"
+        android:icon="@drawable/graphs"/>
+    <item
+        android:id="@+id/fragment_Trading"
+        android:enabled="true"
+        android:title="@string/page4"
+        android:icon="@drawable/trading"/>
+    <item
+        android:id="@+id/fragment_Settings"
+        android:enabled="true"
+        android:title="@string/page5"
+        android:icon="@drawable/settings"/>
+
+</menu>

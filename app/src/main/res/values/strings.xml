@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">CIAËT</string>
+
+    <string name="txt1">No account yet?</string>
+    <string name="txt2"><u>Sign Up</u></string>
+    <string name="txt3">Existing user?</string>
+    <string name="txt4"><u>Log in</u></string>
+    <string name="txt5">Log in</string>
+    <string name="txt6">Sign Up</string>
+    <string name="txt7">Search Crypto Currency</string>
+    <string name="ciaoo">Hi </string>
+    <string name="studia">\"A SMALL PROFIT IS BETTER THAN A BIG LOSS.\"</string>
+    <string name="continuastudio">Continue your lessons now</string>
+    <string name="topasset">Trending</string>
+    <string name="posto1">1°</string>
+    <string name="posto2">2°</string>
+    <string name="posto3">3°</string>
+
+
+    <string name="txtinput1">Email</string>
+    <string name="txtinput2">Password</string>
+    <string name="txtinput3">First Name</string>
+    <string name="txtinput4">Last Name</string>
+    <string name="txtinput5">Date of Birth</string>
+
+
+    <string name="desc1">img LOGO</string>
+    <string name="desc2">img CIAET</string>
+    <string name="desc3">img ACADEMY</string>
+    <string name="desc4">img GRAPHS</string>
+    <string name="desc5">img TRADING</string>
+    <string name="desc6">img SETTING</string>
+
+
+    <string name="error1">You must enter an <b>Email</b></string>
+    <string name="error2">You must enter a <b>Password</b></string>
+    <string name="error3">You must enter a <b>Name</b></string>
+    <string name="error4">You must enter a <b>Last Name</b></string>
+    <string name="error5">You must enter a <b>Date of Birth</b></string>
+    <string name="error6">Wrong email <b>Format</b></string>
+    <string name="error7">Fail to get the data..</string>
+    <string name="error8">Fail to extract json data..</string>
+    <string name="error9">No currency found for searched query</string>
+    <string name="error_retrieving_graphs">Error in retrieving the graphs</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="page1">Home</string>
+    <string name="page2">Academy</string>
+    <string name="page3">Graphs</string>
+    <string name="page4">Trading</string>
+    <string name="page5">Settings</string>
+
+
+    <string name="giaviste">Lessons already started:</string>
+    <string name="learning">LEARNING PATH</string>
+    <string name="lezione1">Finance for beginners</string>
+    <string name="corsi1">6 courses</string>
+    <string name="lezione2">The world of cryptocurrencies</string>
+    <string name="corsi2">1 courses</string>
+    <string name="lezione3">Financial markets</string>
+    <string name="corsi3">12 courses</string>
+    <string name="lezioneNO"><u>Lesson not yet available</u></string>
+    <string name="tradingNO"><u>La sezione di trading è ancora in fase di creazione \n\n\nstay tuned</u></string>
+
+
+    <string name="headerLogin">Login</string>
+    <string name="headerRegistration">Registration</string>
+    <!--    <string name="login">Login</string>-->
+    <string name="or">or</string>
+    <string name="log_out">Log Out</string>
+
+
+
+
+    <string name="btc">$27435,34</string>
+    <string name="eth">$1822,23</string>
+    <string name="bnb">$275,23</string>
+    <!--    <string name="signup">Sign Up</string>-->
+    <!--    <string name="no_account_yet">No account yet?</string>-->
+    <!--    <string name="first_name">First Name</string>-->
+    <!--    <string name="last_name">Last Name</string>-->
+    <!--    <string name="already_has_an_account">Already has an account</string>-->
+    <!--    <string name="sign_in">Sign In</string>-->
+    <!--    <string name="email">Email</string>-->
+    <!--    <string name="password">Password</string>-->
+
+</resources>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "572232719976",
+    "firebase_url": "https://cieat-6100b-default-rtdb.firebaseio.com",
+    "project_id": "cieat-6100b",
+    "storage_bucket": "cieat-6100b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572232719976:android:46b999b6cf47c8b7c125dd",
+        "android_client_info": {
+          "package_name": "it.unimib.ciaet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572232719976-qljlfnt39rcs2v3h6as7q0i9m35msihi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unimib.ciaet",
+            "certificate_hash": "2cab2ec6ac1eaaef649392a0d0bbb508fe8cfe54"
+          }
+        },
+        {
+          "client_id": "572232719976-r4vi07hcog0hh7h2hiti9idfqqmlj14j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unimib.ciaet",
+            "certificate_hash": "815e392a3c6b08086460f1f9432406977d27caca"
+          }
+        },
+        {
+          "client_id": "572232719976-2ba2v1omgfgj5ffpb3jjgs3q3f98r9qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnYOHRFv_4V8zUxrEgIfjjto4kALW2x34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572232719976-2ba2v1omgfgj5ffpb3jjgs3q3f98r9qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
